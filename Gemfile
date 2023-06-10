@@ -2,11 +2,12 @@ source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
-gem "sinatra", "~> 2.1"
+gem "sinatra", "2.2.4"
+
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
-gem "thin", "~> 1.8"
+# gem "thin", "~> 1.8"
 
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
@@ -40,7 +41,7 @@ group :development do
 
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
-  gem "rerun"
+#    gem "rerun"
 end
 
 # These gems will only be used when we are running tests
