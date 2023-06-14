@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
-gem "sinatra", "2.2.4"
+gem "sinatra", "3.0.6"
 
-
+gem 'bundler'
 # A fast and simple web server
 # https://github.com/macournoyer/thin
 # gem "thin", "~> 1.8"
@@ -41,7 +41,7 @@ group :development do
 
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
-#    gem "rerun"
+   gem "rerun"
 end
 
 # These gems will only be used when we are running tests
